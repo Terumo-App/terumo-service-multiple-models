@@ -1,0 +1,1 @@
+docker run --name terumo-service-multiple-models --rm -p5000:5000 terumo-service-multiple-models 

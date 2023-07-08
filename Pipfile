@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+pillow = "*"
+numpy = "*"
+torch = "*"
+efficientnet-pytorch = "*"
+torchvision = "*"
+uvicorn = "*"
+
+[dev-packages]
+safety = "*"
+pytest = "*"
+pytest-cov = "*"
+blue = "*"
+isort = "*"
+taskipy = "*"
+
+[requires]
+python_version = "3.10"

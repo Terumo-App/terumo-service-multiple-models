@@ -1,0 +1,15 @@
+[tool.pytest]
+addopts = "-v"
+testpaths = "tests"
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.taskipy.tasks]
+lint = "blue --check --diff . && isort --check --diff ."
+lintr = "blue . && isort  ."
+docs = "mkdocs serve"
+pre_test = "task lint"
+test = "pytest -s -x --cov=src -vv"
+post_test = "coverage html"
