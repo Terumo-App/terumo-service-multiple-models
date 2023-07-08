@@ -1,4 +1,4 @@
-# terumo-dummy-classifier-mode
+# terumo-service-multiple-models
 
 # Pipenv setup
 
