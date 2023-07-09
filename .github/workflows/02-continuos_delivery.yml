@@ -18,8 +18,8 @@ jobs:
     
     - name: Build and Docker image
       run: |
-        sh build_container.sh
+        sh scripts/build_container.sh
 
     - name: Push Docker image
       run: |
-        sh build_container.sh
+        sh scripts/build_container.sh

@@ -1,8 +1,8 @@
 import requests
 import base64
 
-image_path = "artifacts/test.jpg"
-image_path = "artifacts/PSHIPERCELULARIDADE20200802-10.JPG"
+image_path = "static/test.jpg"
+image_path = "static/PSHIPERCELULARIDADE20200802-10.JPG"
 
 # Open the image file and read the contents
 with open(image_path, "rb") as image_file:
