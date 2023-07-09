@@ -22,4 +22,4 @@ jobs:
 
     - name: Push Docker image
       run: |
-        sh scripts/build_container.sh
+        sh scripts/push_image.sh
