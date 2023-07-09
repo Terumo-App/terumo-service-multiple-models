@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-*.pth.tar
+# *.pth.tar
 # Distribution / packaging
 .Python
 build/
@@ -19,7 +19,7 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
+wheels/tar
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
