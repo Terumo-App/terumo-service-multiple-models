@@ -1,4 +1,5 @@
 FROM python:3.10.11-bullseye
+# FROM python:3.10.11-slim-bullseye
 
 RUN mkdir /app
 
